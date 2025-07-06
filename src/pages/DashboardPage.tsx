@@ -35,7 +35,7 @@ const DashboardPage: React.FC<DashboardPageProps> = ({ currentPage }) => {
         <div className="col-span-6 flex flex-col items-center justify-center relative">
           {/* Text on top center of the C */}
           <motion.div 
-            className="absolute -top-4 right-12 transform -translate-y-full z-10"
+            className="absolute -top-4 transform -translate-y-full z-10"
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.6 }}
